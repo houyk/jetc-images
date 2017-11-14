@@ -1,1 +1,1 @@
-Tag som public common docker images for my convenience.
+Tag some public common docker images for my convenience.
