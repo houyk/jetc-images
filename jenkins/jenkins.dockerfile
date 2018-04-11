@@ -28,7 +28,7 @@ RUN curl -Lo jenkins.war http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 # /var/log/jenkins/jenkins.log
 # JENKINS_HOME/plugins
 
-CMD [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /jenkins.war --httpPort=8080 --logfile=/var/jenkins_home/jenkins.log" ]
+CMD [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /jenkins.war --httpPort=8080 --logfile=/var/jenkins/jenkins.log" ]
 
 # USAGE
 # docker run -d --restart=always \
