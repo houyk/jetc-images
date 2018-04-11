@@ -1,7 +1,7 @@
 
 # docker ready for jenkins(DOOD)
 
-FROM jetc/centos:7
+FROM jetc/centos
 
 
 USER root
